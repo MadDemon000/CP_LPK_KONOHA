@@ -1,5 +1,6 @@
 @extends('layout')
 
+@section('title', 'LPK Konoha')
 @section('content')
     {{-- HERO SECTION --}}
     <section class="hero-section relative flex items-start bg-cover bg-center bg-no-repeat"
@@ -114,7 +115,7 @@
                     {{-- TOMBOL PROFIL KAMI --}}
                     <div class="mt-8">
 
-                        <a href="{{ url('/profil') }}"
+                        <a href="#"
                             class="inline-flex items-center justify-center bg-[#FFD21F] hover:bg-[#e6bb12] text-[#142344] text-[15px] font-semibold px-6 py-3 rounded-lg border-2 border-[#FFD21F] transition duration-300">
 
                             Profil Kami
