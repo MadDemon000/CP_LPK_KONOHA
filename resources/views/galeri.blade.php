@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('welcome')
 
 @section('content')
     <section class="max-w-7xl mx-auto px-4 py-12 mt-40">
