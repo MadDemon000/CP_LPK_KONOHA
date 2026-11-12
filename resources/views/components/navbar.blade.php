@@ -55,25 +55,25 @@
                        rounded-lg bg-gray-50 lg:bg-white">
 
                         <li>
-                            <a href="/" class="block py-2 px-3 text-[#c82036] rounded lg:p-0">
+                            <a href="{{ route('beranda') }}" class="block py-2 px-3 rounded lg:p-0 {{ request()->routeIs('beranda') ? 'text-[#c82036] font-semibold' : 'text-[#142344] hover:text-[#c82036]' }}">
                                 Beranda
                             </a>
                         </li>
 
                         <li>
-                            <a href="#fasilitas" class="block py-2 px-3 text-[#142344] hover:text-[#c82036] lg:p-0">
+                            <a href="#" class="block py-2 px-3 lg:p-0 {{ request()->routeIs('/') ? 'text-[#c82036] font-semibold' : 'text-[#142344] hover:text-[#c82036]' }}">
                                 Program Magang
                             </a>
                         </li>
 
                         <li>
-                            <a href="#fasilitas" class="block py-2 px-3 text-[#142344] hover:text-[#c82036] lg:p-0">
-                                Gallery
+                            <a href="{{ route('galeri') }}" class="block py-2 px-3 lg:p-0 {{ request()->routeIs('galeri') ? 'text-[#c82036] font-semibold' : 'text-[#142344] hover:text-[#c82036]' }}">
+                                Galeri
                             </a>
                         </li>
 
                         <li>
-                            <a href="#tentang" class="block py-2 px-3 text-[#142344] hover:text-[#c82036] lg:p-0">
+                            <a href="#" class="block py-2 px-3 lg:p-0 {{ request()->routeIs('/') ? 'text-[#c82036] font-semibold' : 'text-[#142344] hover:text-[#c82036]' }}">
                                 Tentang Kami
                             </a>
                         </li>

@@ -1,7 +1,8 @@
 @extends('layout')
 
+@section('title', 'Galeri')
 @section('content')
-    <section class="max-w-7xl mx-auto px-4 py-12 mt-40">
+    <section class="max-w-7xl mx-auto px-4 py-12">
         <!-- Judul -->
         <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
             Dokumentasi <span class="text-red-700">LPK Konoha</span>
