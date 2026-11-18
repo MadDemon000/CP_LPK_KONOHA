@@ -61,7 +61,7 @@
                         </li>
 
                         <li>
-                            <a href="#" class="block py-2 px-3 lg:p-0 {{ request()->routeIs('/') ? 'text-[#c82036] font-semibold' : 'text-[#142344] hover:text-[#c82036]' }}">
+                            <a href="{{ route('magang') }}" class="block py-2 px-3 lg:p-0 {{ request()->routeIs('magang') ? 'text-[#c82036] font-semibold' : 'text-[#142344] hover:text-[#c82036]' }}">
                                 Program Magang
                             </a>
                         </li>
