@@ -100,7 +100,7 @@
 
 
                         <li>
-                            <a href="#" class="footer-link inline-block">Magang Jepang</a>
+                            <a href="{{ route('magang') }}" class="footer-link inline-block">Magang Jepang</a>
                         </li>
 
                         <li>
