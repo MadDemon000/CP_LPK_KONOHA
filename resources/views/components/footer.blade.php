@@ -26,10 +26,6 @@
                                 LPK KONOHA
                             </h2>
 
-                            <p class="max-w-sm text-sm leading-7 text-gray-300">
-                                {{ __('messages.footer_description') }}
-                            </p>
-
                             <p class="text-xs text-gray-300">
                                 このは日本語センター
                             </p>
