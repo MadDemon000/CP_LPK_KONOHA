@@ -142,15 +142,22 @@ return [
 'departure_to_japan' => '日本へ出発',
 
 // ギャラリー
-'gallery_title' => '活動記録',
-'gallery_recruitment' => 'LPK Konohaの募集活動',
-'gallery_learning' => 'LPK Konohaでの学習活動',
-'gallery_departure' => '日本へ出発する技能実習生',
-'gallery_internship' => '日本で働く技能実習生',
-'gallery_partners' => 'LPK Konohaと提携機関',
-'gallery_recruitment_alt' => '募集活動の写真',
-'gallery_learning_alt' => '学習活動の写真',
-'gallery_departure_alt' => '技能実習生の出発時の写真',
-'gallery_internship_alt' => '日本で働く技能実習生の写真',
-'gallery_partners_alt' => '提携機関との活動写真',
+// ギャラリー (Versi Ringkas & Sejajar)
+'gallery_subtitle'        => 'ギャラリー＆活動記録',
+'gallery_title'           => '活動記録',
+'gallery_description'     => '採用選考から日本語・日本文化の教育、そして日本の受入企業への出発まで、LPK Konoha実習生の歩みを記録したドキュメントです。',
+
+// Tombol Kategori (Ringkas 1 baris)
+'gallery_recruitment'     => '採用選考',
+'gallery_learning'        => '教育・研修',
+'gallery_departure'       => '出国・出発',
+'gallery_internship'      => '技能実習生',
+'gallery_partners'        => '提携機関',
+
+// Atribut Alt Gambar (SEO & Aksesibilitas)
+'gallery_recruitment_alt' => '募集・採用選考の活動記録',
+'gallery_learning_alt'    => 'LPK Konohaでの学習・研修記録',
+'gallery_departure_alt'   => '日本へ出発する技能実習生の記録',
+'gallery_internship_alt'  => '日本で働く技能実習生の記録',
+'gallery_partners_alt'    => '提携機関との活動記録',
 ];

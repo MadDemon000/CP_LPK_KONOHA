@@ -5,7 +5,7 @@ return [
     'internship_program' => 'Program Magang',
     'gallery' => 'Galeri',
     'about_us' => 'Tentang Kami',
-    'register_now' => 'Hubungi Saya',
+    'register_now' => 'Hubungi Kami',
     'open_menu' => 'Buka menu',
 
     'logo_subtitle' => 'JAPANESE LANGUAGE CENTER',
@@ -142,12 +142,14 @@ return [
 'departure_to_japan' => 'Berangkat ke Jepang',
 
 // GALERI
+'gallery_subtitle'        => 'GALERI & AKTIVITAS',
+'gallery_description'     => 'Dokumentasi perjalanan peserta LPK Konoha, mulai dari proses rekrutmen, pelatihan bahasa dan budaya, hingga keberangkatan kerja bersama mitra di Jepang.',
 'gallery_title' => 'Dokumentasi',
-'gallery_recruitment' => 'Kegiatan Rekrutmen LPK Konoha',
-'gallery_learning' => 'Kegiatan Belajar di LPK Konoha',
-'gallery_departure' => 'Keberangkatan Peserta Magang ke Jepang',
-'gallery_internship' => 'Peserta Magang di Jepang',
-'gallery_partners' => 'LPK Konoha bersama Mitra',
+'gallery_recruitment' => 'Rekrutmen',
+'gallery_learning' => 'Belajar',
+'gallery_departure' => 'Keberangkatan',
+'gallery_internship' => 'Pemagang',
+'gallery_partners' => 'Mitra',
 'gallery_recruitment_alt' => 'Dokumentasi kegiatan rekrutmen',
 'gallery_learning_alt' => 'Dokumentasi kegiatan belajar',
 'gallery_departure_alt' => 'Dokumentasi keberangkatan peserta magang',
