@@ -1,23 +1,24 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../../node_modules/flowbite";
-
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans:
+        "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #142344;
-    background-color: var(--color-white)
+    background-color: var(--color-white);
 }
 
 html {
@@ -30,7 +31,7 @@ html {
 }
 
 .nav-link::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 2px;
     left: 0;
@@ -58,27 +59,81 @@ html {
     padding-left: 5px;
 }
 
-  .custom-shadow {
-        box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.08);
-    }
+.custom-shadow {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.08);
+}
 
-    .donut-segment {
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
+.donut-segment {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
 
-    .donut-segment:hover {
-        opacity: 0.85;
-        transform: scale(1.02);
-        transform-origin: center;
-    }
+.donut-segment:hover {
+    opacity: 0.85;
+    transform: scale(1.02);
+    transform-origin: center;
+}
 
-    .job-card {
-        transition: all 0.3s ease;
-    }
+.job-card {
+    transition: all 0.3s ease;
+}
 
-    .job-card.active {
-        border-color: #B91C1C;
-        background-color: #FEF2F2;
-        transform: translateY(-2px);
+.job-card.active {
+    border-color: #b91c1c;
+    background-color: #fef2f2;
+    transform: translateY(-2px);
+}
+
+[data-animate] {
+    opacity: 0;
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+    transition-delay: var(--delay, 0ms);
+    will-change: opacity, transform;
+}
+
+[data-animate="fade-up"] {
+    transform: translateY(40px);
+}
+
+[data-animate="zoom-in"] {
+    transform: scale(0.9);
+}
+
+[data-animate].is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-animate] {
+        opacity: 1;
+        transform: none;
+        transition: none;
     }
+}
+
+/* ================= SCROLL REVEAL GLOBAL ================= */
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+    will-change: opacity, transform;
+}
+
+.scroll-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll-reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}

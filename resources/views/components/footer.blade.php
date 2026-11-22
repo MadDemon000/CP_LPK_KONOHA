@@ -26,8 +26,8 @@
                                 LPK KONOHA
                             </h2>
 
-                            <p class="text-[9px] tracking-[2px] text-[#f5a8b7]">
-                                JAPANESE LANGUAGE CENTER
+                            <p class="max-w-sm text-sm leading-7 text-gray-300">
+                                {{ __('messages.footer_description') }}
                             </p>
 
                             <p class="text-xs text-gray-300">
@@ -38,9 +38,7 @@
                     </a>
 
                     <p class="max-w-sm text-sm leading-7 text-gray-300">
-                        Wujudkan impian karier dan studi di Jepang bersama LPK Konoha.
-                        Belajar bahasa, keterampilan, dan persiapkan masa depan
-                        yang lebih cerah bersama kami.
+                        {{ __('messages.footer_description') }}
                     </p>
 
 
@@ -88,29 +86,33 @@
                 <div class="border-t border-white/20 pt-8 md:border-l md:border-t-0 md:pl-10 md:pt-0">
 
                     <h3 class="mb-7 text-base font-bold">
-                        Tautan Cepat
+                        {{ __('messages.quick_links') }}
                     </h3>
 
                     <ul class="space-y-4 text-sm text-gray-300">
-
                         <li>
-                            <a href="{{ route('beranda') }}" class="footer-link inline-block">Beranda</a>
-                        </li>
-
-
-
-                        <li>
-                            <a href="{{ route('magang') }}" class="footer-link inline-block">Magang Jepang</a>
+                            <a href="{{ route('beranda') }}" class="footer-link inline-block">
+                                {{ __('messages.home') }}
+                            </a>
                         </li>
 
                         <li>
-                            <a href="{{ Route('galeri') }}" class="footer-link inline-block">Galeri</a>
+                            <a href="{{ route('magang') }}" class="footer-link inline-block">
+                                {{ __('messages.japan_internship') }}
+                            </a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link inline-block">Tentang Kami</a>
+                            <a href="{{ route('galeri') }}" class="footer-link inline-block">
+                                {{ __('messages.gallery') }}
+                            </a>
                         </li>
 
+                        <li>
+                            <a href="#" class="footer-link inline-block">
+                                {{ __('messages.about_us') }}
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
@@ -120,7 +122,7 @@
                 <div class="border-t border-white/20 pt-8 md:border-t-0 md:pt-0">
 
                     <h3 class="mb-7 text-base font-bold">
-                        Informasi & Kontak
+                        {{ __('messages.contact_information') }}
                     </h3>
 
 
@@ -138,12 +140,14 @@
                         </div>
 
                         <div>
-                            <h4 class="mb-1 text-sm font-semibold">Jam Operasional</h4>
+                            <h4 class="mb-1 text-sm font-semibold">
+                                {{ __('messages.operating_hours') }}
+                            </h4>
 
                             <p class="text-xs leading-6 text-gray-300">
-                                Senin - Jumat: 08.00 - 16.00 WIB
+                                {{ __('messages.monday_friday') }}: 08.00 - 16.00 WIB
                                 <br>
-                                Sabtu: 08.00 - 13.00 WIB
+                                {{ __('messages.saturday') }}: 08.00 - 13.00 WIB
                             </p>
                         </div>
 
@@ -165,7 +169,9 @@
                         </div>
 
                         <div>
-                            <h4 class="mb-1 text-sm font-semibold">Alamat</h4>
+                            <h4 class="mb-1 text-sm font-semibold">
+                                {{ __('messages.address') }}
+                            </h4>
 
                             <p class="text-xs leading-6 text-gray-300">
                                 Jl. Kramat Jaya No. 11,
@@ -192,7 +198,9 @@
                         </div>
 
                         <div>
-                            <h4 class="mb-1 text-sm font-semibold">Email</h4>
+                            <h4 class="mb-1 text-sm font-semibold">
+                                {{ __('messages.email') }}
+                            </h4>
 
                             <p class="text-xs text-gray-300">
                                 info@lpk-konoha.com
@@ -215,7 +223,7 @@
 
                 <p class="text-xs text-gray-300">
                     &copy; {{ date('Y') }} LPK Konoha.
-                    All Rights Reserved.
+                    {{ __('messages.all_rights_reserved') }}
                 </p>
 
             </div>
