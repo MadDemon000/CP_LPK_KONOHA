@@ -113,8 +113,9 @@
                     </li>
 
                     <li>
-                        <a href="#"
-                            class="block py-3 px-3 lg:py-2 lg:px-0 rounded-lg text-[#142344] hover:text-[#c82036] hover:bg-gray-100 lg:hover:bg-transparent">
+                        <a href="{{ route('tentang-kami') }}"
+                            class="block py-3 px-3 lg:py-2 lg:px-0 rounded-lg
+                            {{ request()->routeIs('tentang-kami') ? 'text-[#c82036] font-semibold bg-red-50 lg:bg-transparent' : 'text-[#142344] hover:text-[#c82036] hover:bg-gray-100 lg:hover:bg-transparent' }}">
                             {{ __('messages.about_us') }}
                         </a>
                     </li>

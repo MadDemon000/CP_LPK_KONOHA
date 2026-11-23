@@ -78,7 +78,7 @@
 
                     {{-- TOMBOL PROFIL KAMI --}}
                     <div class="mt-8">
-                        <a href="#"
+                        <a href="{{ route('tentang-kami') }}"
                             class="inline-flex items-center px-5 py-3 text-sm font-semibold text-center text-[#142344] bg-[#FFD21F] rounded-lg hover:bg-[#e6bb12] focus:ring-4 focus:outline-none focus:ring-yellow-200">
                             {{ __('messages.our_profile') }}
                             <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
