@@ -105,7 +105,7 @@
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link inline-block">
+                            <a href="{{ route('tentang-kami') }}" class="footer-link inline-block">
                                 {{ __('messages.about_us') }}
                             </a>
                         </li>
