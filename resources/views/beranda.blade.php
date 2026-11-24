@@ -1,33 +1,48 @@
 @extends('layout')
 
-@section('title', 'LPK Konoha')
+@section('title', app()->getLocale() == 'ja' ? 'このは日本語センター' : 'LPK Konoha')
 @section('content')
+
     {{-- HERO SECTION --}}
-    <section
-        class="hero-section relative flex items-center justify-center min-h-120 md:min-h-140 bg-cover bg-center bg-no-repeat"
+    <section class="hero-section relative flex items-start bg-cover bg-center bg-no-repeat"
         style="background-image: url('{{ asset('assets/img/background.jpg') }}')">
 
-        <div class="absolute inset-0 bg-white/60"></div>
+        <div class="absolute inset-0 bg-white/15"></div>
 
-        <div class="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24">
-            <div class="hero-content max-w-4xl mx-auto text-center">
+        <div class="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pt-30 pb-12">
 
-                <h1 data-animate="fade-up" class="mb-5 text-3xl md:text-[42px] font-extrabold leading-tight text-[#142344]">
+            <div class="hero-content">
+
+                <h1 class="text-3xl md:text-[42px] font-extrabold leading-tight text-[#142344] mb-5">
                     {{ __('messages.hero_title_1') }}
                     <span class="block">{{ __('messages.hero_title_2') }}</span>
                     <span class="block text-[#c82036]">{{ __('messages.hero_title_3') }}</span>
                 </h1>
 
-                <p data-animate="fade-up" data-delay="200"
-                    class="max-w-3xl mx-auto text-base md:text-xl font-medium leading-relaxed text-[#142344]">
+                <p class="text-base md:text-[20px] text-[#142344] font-medium leading-relaxed mb-8 max-w-3xl">
                     {{ __('messages.hero_description') }}
                 </p>
 
+                <div class="flex flex-wrap items-center gap-4">
 
+                    <a href="#"
+                        class="inline-flex items-center gap-3 bg-[#c82036] hover:bg-[#a7192c] text-white border-2 border-[#F4C7D0] text-[15px] font-semibold px-6 py-3.5 rounded-full shadow-md transition">
+
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0-4-8Zm-2 9a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        {{ __('messages.register_now') }}
+                    </a>
+
+                </div>
             </div>
         </div>
     </section>
-
 
     {{-- SECTION TENTANG LPK KONOHA --}}
     <section class="w-full bg-white py-12 md:py-16">
@@ -81,11 +96,13 @@
                         <a href="{{ route('tentang-kami') }}"
                             class="inline-flex items-center px-5 py-3 text-sm font-semibold text-center text-[#142344] bg-[#FFD21F] rounded-lg hover:bg-[#e6bb12] focus:ring-4 focus:outline-none focus:ring-yellow-200">
                             {{ __('messages.our_profile') }}
-                            <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-bold" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    d="m10 16 4-4-4-4" />
                             </svg>
+
                         </a>
                     </div>
                 </div>

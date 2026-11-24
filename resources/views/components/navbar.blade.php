@@ -26,7 +26,7 @@
                 <form action="{{ route('language.switch') }}" method="POST">
                     @csrf
                     <div
-                        class="inline-flex items-center rounded-full border border-gray-300 bg-white p-0.5 text-xs sm:text-sm font-semibold">
+                        class="inline-flex items-center rounded-full border-2 border-[#F4C7D0] bg-white p-0.5 text-xs sm:text-sm font-semibold">
 
                         <button type="submit" name="locale" value="id" aria-label="Bahasa Indonesia"
                             aria-pressed="{{ app()->getLocale() === 'id' ? 'true' : 'false' }}"
@@ -50,7 +50,7 @@
                     aria-label="{{ __('messages.register_now') }} via WhatsApp"
                     class="inline-flex items-center justify-center gap-2
                     bg-[#c82036] hover:bg-[#a91b2e]
-                    border border-[#F4C7D0] text-white font-semibold text-sm
+                   border-2 border-[#F4C7D0] text-white font-semibold text-sm
                     w-10 h-10 sm:w-auto sm:h-auto sm:px-5 sm:py-3
                     rounded-full transition whitespace-nowrap">
 
@@ -59,7 +59,7 @@
                             d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.3 4.7 4.8-1.25A10 10 0 1 0 12.04 2Zm0 18.2a8.2 8.2 0 0 1-4.17-1.14l-.3-.18-2.87.75.77-2.8-.2-.3A8.2 8.2 0 1 1 12.04 20.2Zm4.5-6.15c-.25-.12-1.47-.73-1.7-.81-.23-.08-.4-.12-.56.12-.17.25-.65.81-.8.98-.15.16-.3.18-.56.06-.25-.12-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.65.31-.23.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.64 4.2 3.7.59.26 1.05.42 1.41.54.59.19 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.16-.48-.29Z" />
                     </svg>
 
-                    <span class="hidden sm:inline">{{ __('messages.register_now') }}</span>
+                    <span class="hidden sm:inline">{{ __('messages.contact_us') }}</span>
                 </a>
 
                 <!-- HAMBURGER -->
