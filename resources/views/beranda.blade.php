@@ -25,7 +25,7 @@
 
                 <div class="flex flex-wrap items-center gap-4">
 
-                    <a href="#"
+                    <a href="{{ route('daftar') }}"
                         class="inline-flex items-center gap-3 bg-[#c82036] hover:bg-[#a7192c] text-white border-2 border-[#F4C7D0] text-[15px] font-semibold px-6 py-3.5 rounded-full shadow-md transition">
 
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
@@ -196,4 +196,5 @@
             </div>
         </div>
     </section>
+    <x-testimoni></x-testimoni>
 @endsection
