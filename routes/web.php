@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\PendaftaranController;
 use App\Http\Controllers\ProgramMagangController;
 use App\Http\Controllers\TentangKamiController;
 use Illuminate\Support\Facades\Route;
@@ -10,6 +11,9 @@ Route::get('/', [BerandaController::class, 'beranda'])->name('beranda');
 Route::get('/galeri', [GaleriController::class, 'galeri'])->name('galeri');
 Route::get('/program-magang', [ProgramMagangController::class, 'magang'])->name('magang');
 Route::get('/tentang-kami', [TentangKamiController::class, 'tentangkami'])->name('tentang-kami');
+Route::get('/pendaftaran', [PendaftaranController::class, 'daftar'])->name('daftar');
+Route::post('/pendaftaran', [PendaftaranController::class, 'store'])->name('daftar.create');
+
 
 Route::get('/layout', function () {
     return view('layout');

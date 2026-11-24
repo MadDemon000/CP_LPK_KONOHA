@@ -264,4 +264,39 @@ return [
 'partner_sakura_name' => 'PT. Sakura Nusantara Sejahtera',
 'partner_kansai_name' => 'Kansai Technical Support',
 'partner_lsp_name' => 'LSP Vokasi & Bahasa Indonesia',
+
+//testimoni
+'testimoni.eyebrow' => 'Testimoni Alumni',
+'testimoni.judul' => 'Kata Mereka yang Sudah',
+'testimoni.sorot' => 'Berangkat ke Jepang',
+'testimoni.deskripsi' => 'Cerita nyata dari alumni LPK Konoha yang kini menjalani magang dan bekerja di Jepang, dari proses belajar hingga hari pertama di tempat kerja.',
+'testimoni.cta_judul' => 'Siap menjadi alumni berikutnya?',
+'testimoni.cta_teks' => 'Daftar Sekarang',
+'testimoni.photo_alt' => 'Foto :nama',
+'testimoni.rating_label' => 'Rating :rating dari 5',
+'testimoni.meta_info' => ':umur tahun · asal :asal',
+
+'testimoni.items.0.asal' => 'Bekasi',
+'testimoni.items.0.bidang' => 'Manufaktur',
+'testimoni.items.0.lokasi' => 'Aichi, Jepang',
+'testimoni.items.0.angkatan' => 'Angkatan 2023',
+'testimoni.items.0.kutipan' => 'Waktu masuk LPK Konoha saya belum bisa satu kalimat pun bahasa Jepang. Sensei sabar sekali, dari hiragana sampai latihan wawancara. Sekarang saya bekerja di pabrik komponen otomotif di Aichi dan bisa mengirim uang untuk orang tua tiap bulan.',
+
+'testimoni.items.1.asal' => 'Jakarta Utara',
+'testimoni.items.1.bidang' => 'Perawatan Lansia (Kaigo)',
+'testimoni.items.1.lokasi' => 'Saitama, Jepang',
+'testimoni.items.1.angkatan' => 'Angkatan 2023',
+'testimoni.items.1.kutipan' => 'Awalnya takut jauh dari keluarga. Tapi tim Konoha menemani dari seleksi sampai keberangkatan, bahkan sampai sekarang masih sering menanyakan kabar saya.',
+
+'testimoni.items.2.asal' => 'Karawang',
+'testimoni.items.2.bidang' => 'Konstruksi',
+'testimoni.items.2.lokasi' => 'Osaka, Jepang',
+'testimoni.items.2.angkatan' => 'Angkatan 2024',
+'testimoni.items.2.kutipan' => 'Materinya praktis dan disiplinnya melatih mental. Pas tiba di Jepang saya sudah terbiasa dengan budaya kerjanya, jadi tidak kaget.',
+
+'testimoni.items.3.asal' => 'Bogor',
+'testimoni.items.3.bidang' => 'Perhotelan & Kuliner',
+'testimoni.items.3.lokasi' => 'Kyoto, Jepang',
+'testimoni.items.3.angkatan' => 'Angkatan 2024',
+'testimoni.items.3.kutipan' => 'Biayanya jelas dan tidak ada yang disembunyikan. Orang tua saya tenang karena semua prosesnya transparan dan resmi.',
 ];

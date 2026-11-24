@@ -265,7 +265,7 @@
                                 {{ __('messages.about_intensive_feature_5') }}
                             </li>
                         </ul>
-                        <a href="https://wa.me/6285890498591"
+                        <a href="{{ route('daftar') }}"
                             class="w-full text-center py-3 px-4 hover:bg-white bg-[#c82036] hover:text-[#142344] text-white font-semibold rounded-lg transition">
                             {{ __('messages.about_register_program') }}
                         </a>

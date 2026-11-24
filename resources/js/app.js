@@ -1,4 +1,5 @@
 import "flowbite";
+import "./pendaftaran-wizard";
 
 document.addEventListener('DOMContentLoaded', () => {
     const animatedElements = document.querySelectorAll('[data-animate]');

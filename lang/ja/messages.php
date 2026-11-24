@@ -271,4 +271,40 @@ return [
 'partner_kansai_name' => '関西テクニカルサポート',
 'partner_lsp_name' => 'インドネシア職業訓練・語学認定機関',
 
+//testimoni
+'testimoni.eyebrow' => '卒業生の声',
+'testimoni.judul' => '卒業生の',
+'testimoni.sorot' => '体験談',
+'testimoni.deskripsi' => '日本で夢をかなえた卒業生たちの声をご紹介します。',
+'testimoni.cta_judul' => 'あなたも日本で挑戦しませんか？',
+'testimoni.cta_teks' => '今すぐ登録',
+
+'testimoni.photo_alt' => ':nama の写真',
+'testimoni.rating_label' => '5段階中 :rating の評価',
+'testimoni.meta_info' => ':umur歳 · :asal',
+
+'testimoni.items.0.asal' => 'ブカシ出身',
+'testimoni.items.0.bidang' => '製造業',
+'testimoni.items.0.lokasi' => '愛知県',
+'testimoni.items.0.angkatan' => '2023年期生',
+'testimoni.items.0.kutipan' => 'LPKコノハに入った時は日本語が一言も話せませんでした。先生方がひらがなから面接練習まで丁寧に教えてくださり、今は愛知県の自動車部品工場で働きながら、毎月両親に仕送りができています。',
+
+'testimoni.items.1.asal' => '北ジャカルタ出身',
+'testimoni.items.1.bidang' => '介護',
+'testimoni.items.1.lokasi' => '埼玉県',
+'testimoni.items.1.angkatan' => '2023年期生',
+'testimoni.items.1.kutipan' => '最初は家族と離れるのが不安でしたが、コノハの皆さんが選考から出発までずっと寄り添ってくれ、今でもよく近況を気にかけてくれます。',
+
+'testimoni.items.2.asal' => 'カラワン出身',
+'testimoni.items.2.bidang' => '建設業',
+'testimoni.items.2.lokasi' => '大阪府',
+'testimoni.items.2.angkatan' => '2024年期生',
+'testimoni.items.2.kutipan' => '授業は実践的で、日々の規律によってメンタルも鍛えられました。日本に着いた頃には働く文化に慣れていたため、戸惑いはありませんでした。',
+
+'testimoni.items.3.asal' => 'ボゴール出身',
+'testimoni.items.3.bidang' => 'ホテル・飲食業',
+'testimoni.items.3.lokasi' => '京都府',
+'testimoni.items.3.angkatan' => '2024年期生',
+'testimoni.items.3.kutipan' => '費用が明確で隠すことがなく、手続きもすべて透明で正規のものだったので、両親も安心して送り出してくれました。',
+
 ];
