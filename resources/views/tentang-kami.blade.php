@@ -4,8 +4,8 @@
 @section('content')
     <div>
         {{-- HERO / HEADER & MOTTO LPK --}}
-        <section class="w-full bg-[#142344] text-white py-16 md:py-20 relative overflow-hidden"
-            style="background-image: url('{{ asset('assets/img/background.jpg') }}'); background-position: center;">
+        <section class="hero-section relative flex items-start bg-cover bg-center bg-no-repeat"
+            style="background-image: url('{{ asset('assets/img/background.jpg') }}');">
             <div class="max-w-7xl mx-auto px-6 md:px-10 text-center relative z-10 pt-24 pb-16 md:pt-28 md:pb-20"
                 data-animate="fade-up">
                 <span
